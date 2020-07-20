@@ -1218,6 +1218,9 @@
     <!-- Whether device supports internal audio recording -->
     <bool name="config_hasInternalAudioRecordingSupport">true</bool>
 
+    <!-- Flag indicating whether the device supports dynamic font contrast handling -->
+    <bool name="config_dynamic_font_contrast_available">true</bool>
+
      <!-- SystemInfo Sys Nodes -->
     <integer name="config_sysBatteryTempMultiplier">10</integer>
     <integer name="config_sysCPUTempMultiplier">1000</integer>
