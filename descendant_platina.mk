@@ -35,6 +35,7 @@ TARGET_GAPPS_ARCH := arm64
 
 # Inherit some common Descendant OS stuff.
 $(call inherit-product, vendor/descendant/config/common_full_phone.mk)
+$(call inherit-product, device/xiaomi/platina/GApps-flags.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="platina" \
